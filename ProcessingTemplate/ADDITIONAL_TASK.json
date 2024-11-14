@@ -1,0 +1,12 @@
+{
+  "owner": "des_user",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "sleep 3"
+  }
+}

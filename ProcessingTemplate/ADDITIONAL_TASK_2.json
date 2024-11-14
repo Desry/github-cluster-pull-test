@@ -1,20 +1,12 @@
 {
-  "description": "sleep 4 seconds",
-  "folder": "MX_EOD",
-  "node": "murex_appserver",
   "owner": "des_user",
   "priority": "0",
   "processingType": "TASK",
   "serverNodeType": "LINUX",
-  "tags": 
-  [
-    "EOD",
-    "sleep"
-  ],
   "taskType": "SH",
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "sleep 4"
+    "script": "sleep 5"
   }
 }

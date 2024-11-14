@@ -1,6 +1,7 @@
 {
   "description": "20000|upload of IR fixing as of today option",
   "folder": "MX_INTRADAY",
+  "owner": "des_user",
   "priority": "0",
   "processingType": "WORKFLOW",
   "tags": 

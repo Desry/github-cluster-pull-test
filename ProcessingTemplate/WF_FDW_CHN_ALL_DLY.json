@@ -1,5 +1,6 @@
 {
   "description": "FDW Daily batch",
+  "owner": "des_user",
   "priority": "0",
   "processingType": "WORKFLOW",
   "tags": 

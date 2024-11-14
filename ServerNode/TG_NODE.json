@@ -1,0 +1,13 @@
+{
+  "serverNodeType": "TELEGRAM",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "TG_EP",
+      "endpointType": "TELEGRAM"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "serverNodeType": "SOAP_WEB_SERVICE",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "SOAP_EP",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "SOAP_EP2",
+      "endpointType": "SOAP_WEB_SERVICE"
+    }
+  ]
+}

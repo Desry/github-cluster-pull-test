@@ -1,0 +1,27 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "wait_local_time",
+      "processingTemplate": "wait_local_time",
+      "processingType": "TASK",
+      "serverNodeType": "INTERNAL",
+      "taskType": "WAIT"
+    }
+  ],
+  "timeTriggers": 
+  [
+    {
+      "endTime": 55800000,
+      "repeatInterval": 3600000,
+      "startTime": 18000000,
+      "timeTriggerType": "REPEATING"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "serverNodeType": "DASHDB",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "DB2_ON_CLOUD",
+      "endpointType": "DASHDB"
+    }
+  ]
+}

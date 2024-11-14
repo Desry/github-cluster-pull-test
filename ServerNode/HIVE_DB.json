@@ -1,0 +1,13 @@
+{
+  "serverNodeType": "HIVE_QL",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "HIVE_QL_DB_EP",
+      "endpointType": "HIVE_QL"
+    }
+  ]
+}

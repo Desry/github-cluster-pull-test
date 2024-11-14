@@ -1,0 +1,13 @@
+{
+  "serverNodeType": "EMAIL",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "DES_EMAIL_EP",
+      "endpointType": "EMAIL"
+    }
+  ]
+}

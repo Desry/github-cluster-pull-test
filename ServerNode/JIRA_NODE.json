@@ -1,0 +1,13 @@
+{
+  "serverNodeType": "JIRA",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "JIRA_NODE_ENDPOINT",
+      "endpointType": "JIRA"
+    }
+  ]
+}

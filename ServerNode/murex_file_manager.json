@@ -1,0 +1,19 @@
+{
+  "serverNodeType": "FILE_MANAGER",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "logMaxFiles": "60",
+    "persistence": true,
+    "sysoutMaxAgeInDays": "7"
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "defaultEndpoint": true,
+      "endpoint": "fw_anow_mx",
+      "endpointType": "SFTP"
+    }
+  ]
+}

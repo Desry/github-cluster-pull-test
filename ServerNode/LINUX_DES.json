@@ -1,0 +1,33 @@
+{
+  "serverNodeType": "LINUX",
+  "totalWeightCapacity": 100,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 100,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "persistenceRetryDelay": 5000,
+    "pythonCmd": "/usr/bin/python",
+    "sysoutMaxAgeInDays": 3
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "SSH_Endpoint_File_SSH_Key",
+      "endpointType": "SSH"
+    },
+    {
+      "endpoint": "des_ssh",
+      "endpointType": "SSH"
+    },
+    {
+      "endpoint": "user_ep_test",
+      "endpointType": "USER"
+    }
+  ]
+}

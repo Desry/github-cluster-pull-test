@@ -1,0 +1,18 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "sleep_30s",
+      "processingTemplate": "sleep_30s",
+      "processingType": "TASK",
+      "serverNodeType": "LINUX",
+      "taskType": "SH"
+    }
+  ]
+}

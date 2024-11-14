@@ -1,0 +1,35 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "arch_cleanup",
+      "processingTemplate": "arch_cleanup",
+      "processingType": "TASK",
+      "serverNodeType": "INTERNAL",
+      "taskType": "ARCHIVE_CLEANUP"
+    },
+    {
+      "name": "archive_old",
+      "processingTemplate": "archive_old",
+      "processingType": "TASK",
+      "serverNodeType": "INTERNAL",
+      "taskType": "ARCHIVE_INTERVAL"
+    }
+  ],
+  "timeTriggers": 
+  [
+    {
+      "endTime": 86399999,
+      "repeatInterval": 3600000,
+      "startTime": 0,
+      "timeTriggerType": "DAILY",
+      "timeZone": "Asia/Manila"
+    }
+  ]
+}

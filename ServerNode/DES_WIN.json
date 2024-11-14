@@ -1,0 +1,17 @@
+{
+  "serverNodeType": "WINDOWS",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 60,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistenceRetryDelay": 5000,
+    "powershellCmd": "powershell -File",
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  }
+}

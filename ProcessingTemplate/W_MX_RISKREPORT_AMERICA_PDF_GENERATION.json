@@ -1,0 +1,32 @@
+{
+  "description": "12000|Risk Reporting PDF generation NA",
+  "folder": "MX_EOD",
+  "priority": "0",
+  "processingType": "WORKFLOW",
+  "tags": 
+  [
+    "EOD",
+    "NA",
+    "SUB"
+  ],
+  "workflowType": "STANDARD",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "T_MX_GENERATE_MR_REPORTS_NA",
+      "processingTemplate": "T_MX_GENERATE_MR_REPORTS_NA",
+      "processingType": "TASK",
+      "serverNodeType": "LINUX",
+      "taskType": "SH"
+    },
+    {
+      "name": "T_MX_RISK_OVERFLOW_WARNING_NA",
+      "processingTemplate": "T_MX_RISK_OVERFLOW_WARNING_NA",
+      "processingType": "TASK",
+      "serverNodeType": "LINUX",
+      "taskType": "SH"
+    }
+  ]
+}

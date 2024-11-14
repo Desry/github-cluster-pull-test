@@ -1,0 +1,16 @@
+{
+  "serverNodeType": "POSTGRESQL",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "LOCAL_PG",
+      "endpointType": "POSTGRESQL"
+    }
+  ]
+}

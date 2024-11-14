@@ -1,0 +1,16 @@
+{
+  "serverNodeType": "IBM_MQ",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "TEST_IBM_MQ_EP",
+      "endpointType": "IBM_MQ"
+    }
+  ]
+}

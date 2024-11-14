@@ -1,0 +1,26 @@
+{
+  "description": "12000|exit code 5",
+  "folder": "MX_EOD",
+  "priority": "0",
+  "processingType": "WORKFLOW",
+  "tags": 
+  [
+    "EOD",
+    "NA",
+    "SUB"
+  ],
+  "workflowType": "STANDARD",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "T_MX_LIMITATION_DATEMV_NA5",
+      "processingTemplate": "T_MX_LIMITATION_DATEMV_NA5",
+      "processingType": "TASK",
+      "serverNodeType": "LINUX",
+      "taskType": "SH",
+      "title": "T_MX_LIMITATION_DATEMV_NA5"
+    }
+  ]
+}

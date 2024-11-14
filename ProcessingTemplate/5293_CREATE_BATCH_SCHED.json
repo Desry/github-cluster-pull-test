@@ -1,0 +1,17 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "WC_EUFFI_CREATE_BATCH",
+      "processingTemplate": "WC_EUFFI_CREATE_BATCH",
+      "processingType": "WORKFLOW",
+      "workflowType": "CYCLE"
+    }
+  ]
+}

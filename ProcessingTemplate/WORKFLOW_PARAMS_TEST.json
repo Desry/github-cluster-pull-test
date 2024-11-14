@@ -1,0 +1,21 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "WORKFLOW",
+  "workflowType": "STANDARD",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "TASK_WITH_PARAM",
+      "processingTemplate": "TASK_WITH_PARAM",
+      "processingType": "TASK",
+      "serverNodeType": "LINUX",
+      "taskType": "SH",
+      "templateParameters": {
+        "THIS_PARAM": "Change this to some value"
+      }
+    }
+  ]
+}

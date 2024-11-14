@@ -1,0 +1,29 @@
+{
+  "serverNodeType": "REST_WEB_SERVICE",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "REST_TEST",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "REST_TEST_BASIC_AUTH",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "REST_TEST_CUSTOM_AUTH",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "REST_TEST_CUSTOM_AUTH_ENCRYPTED_TOKEN",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "REST_TEST_NO_AUTH",
+      "endpointType": "REST_WEB_SERVICE"
+    }
+  ]
+}

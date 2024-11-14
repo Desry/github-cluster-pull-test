@@ -1,0 +1,17 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "triggerType": "EVENT",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "NESTED_WFW",
+      "processingTemplate": "NESTED_WFW",
+      "processingType": "WORKFLOW",
+      "workflowType": "STANDARD"
+    }
+  ]
+}

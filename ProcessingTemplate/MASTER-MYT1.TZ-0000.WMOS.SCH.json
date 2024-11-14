@@ -1,0 +1,30 @@
+{
+  "folder": "SYSTEM",
+  "owner": "VP_API",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "tags": 
+  [
+    "WMOS"
+  ],
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "MASTER_WFW_UNDER_MASTER_SCHED",
+      "processingTemplate": "MASTER_WFW_UNDER_MASTER_SCHED",
+      "processingType": "WORKFLOW",
+      "workflowType": "STANDARD"
+    }
+  ],
+  "timeTriggers": 
+  [
+    {
+      "startTime": 0,
+      "timeTriggerType": "DAILY",
+      "timeZone": "Asia/Kuala_Lumpur"
+    }
+  ]
+}

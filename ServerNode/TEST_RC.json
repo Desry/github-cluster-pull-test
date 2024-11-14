@@ -1,0 +1,16 @@
+{
+  "serverNodeType": "RAINCODE",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "TEST_RC_ENDPOINT",
+      "endpointType": "RAINCODE"
+    }
+  ]
+}

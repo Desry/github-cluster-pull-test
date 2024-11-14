@@ -1,0 +1,31 @@
+{
+  "serverNodeType": "IBM_MQ",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 60,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "IBM_MQ_EP",
+      "endpointType": "IBM_MQ"
+    },
+    {
+      "endpoint": "IBM_MQ_EP_BLOCKED_CHANNEL",
+      "endpointType": "IBM_MQ"
+    },
+    {
+      "endpoint": "IBM_MQ_EP_WITH_RECONN_OPTION",
+      "endpointType": "IBM_MQ"
+    }
+  ]
+}

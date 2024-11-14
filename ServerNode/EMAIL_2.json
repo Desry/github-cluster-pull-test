@@ -1,0 +1,24 @@
+{
+  "parent": "[SOURCE_REPO_TEST]EMAIL_LB",
+  "parentLoadBalancer": "EMAIL_LB",
+  "serverNodeType": "EMAIL",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "defaultEndpoint": true,
+      "endpoint": "DES_EMAIL_EP",
+      "endpointType": "EMAIL"
+    },
+    {
+      "endpoint": "AA_GMAIL_SMTP",
+      "endpointType": "EMAIL"
+    },
+    {
+      "endpoint": "DES_GMAIL",
+      "endpointType": "EMAIL"
+    }
+  ]
+}

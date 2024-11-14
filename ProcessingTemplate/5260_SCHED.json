@@ -1,0 +1,17 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "W_CORE_AMERICA_CTL_SOD",
+      "processingTemplate": "W_CORE_AMERICA_CTL_SOD",
+      "processingType": "WORKFLOW",
+      "workflowType": "STANDARD"
+    }
+  ]
+}

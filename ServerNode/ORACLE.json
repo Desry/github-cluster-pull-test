@@ -1,0 +1,16 @@
+{
+  "serverNodeType": "ORACLE",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "LOCAL_XE",
+      "endpointType": "ORACLE"
+    }
+  ]
+}

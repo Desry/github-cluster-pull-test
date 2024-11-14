@@ -1,0 +1,121 @@
+{
+  "parent": "[SOURCE_REPO_TEST]fdw_appserver",
+  "parentLoadBalancer": "fdw_appserver",
+  "serverNodeType": "LINUX",
+  "totalWeightCapacity": 500,
+  "configuration": {
+    "AgentHeartbeat": 60000,
+    "NoOfPrcss": 500,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "actions": 
+  [
+    {
+      "processingActionType": "NOTIFY_CHANNEL",
+      "processingEventCategory": "SERVER_NODE",
+      "processingEventType": "SERVER_NODE_DISCONNECTED",
+      "processingCommand": {
+        "notificationChannel": "[GFS]OBM_Disconnect_Node",
+        "notificationChannelParameters": {
+          "KongClientID": "${RBKongClientID}",
+          "KongScope": "${RBKongScope}",
+          "KongSecret": "${RBKongSecret}",
+          "KongTenantID": "${RBKongTenantID}",
+          "KongURL": "${RBKongURL}",
+          "affectedCI": "GFS SUPPORT GLOB PROD",
+          "anow_severity": "major",
+          "dateQueued": "Apr 14, 2024, 10:11:00 PM",
+          "domain": "GFS",
+          "name": "${name}",
+          "node": "${node}",
+          "objectLink": "${objectLink}",
+          "processingStatus": "${processingStatus}",
+          "rootName": "${rootName}"
+        }
+      }
+    },
+    {
+      "processingActionType": "NOTIFY_CHANNEL",
+      "processingEventCategory": "SERVER_NODE",
+      "processingEventType": "SERVER_NODE_CONNECTED",
+      "processingCommand": {
+        "notificationChannel": "[GFS]OBM_Connect_Node",
+        "notificationChannelParameters": {
+          "KongClientID": "${RBKongClientID}",
+          "KongScope": "${RBKongScope}",
+          "KongSecret": "${RBKongSecret}",
+          "KongTenantID": "${RBKongTenantID}",
+          "KongURL": "${RBKongURL}",
+          "affectedCI": "GFS SUPPORT GLOB PROD",
+          "anow_severity": "normal",
+          "dateQueued": "Apr 14, 2024, 10:16:44 PM",
+          "domain": "GFS",
+          "name": "${name}",
+          "node": "${node}",
+          "objectLink": "${objectLink}",
+          "processingStatus": "${processingStatus}",
+          "rootName": "${rootName}"
+        }
+      }
+    }
+  ],
+  "endpoints": 
+  [
+    {
+      "endpoint": "aeguser",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "fbruser",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "fcluser",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "fdwadmin",
+      "endpointType": "USER"
+    },
+    {
+      "defaultEndpoint": true,
+      "endpoint": "fdwuser",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "fenuser",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "fnluser",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "frcuser",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "gfitsupp",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "fususer",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "s2buser",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "sptuser",
+      "endpointType": "USER"
+    }
+  ]
+}

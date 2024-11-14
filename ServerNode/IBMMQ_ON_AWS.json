@@ -1,0 +1,21 @@
+{
+  "serverNodeType": "IBM_MQ",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "IBM_MQ_MULTI_ON_AWS",
+      "endpointType": "IBM_MQ"
+    },
+    {
+      "endpoint": "IBM_MQ_MULTI_ON_AWS_WITH_TIMEOUT",
+      "endpointType": "IBM_MQ"
+    },
+    {
+      "endpoint": "IBM_MQ_MULTI_ON_AWS_PUBLIC_IP",
+      "endpointType": "IBM_MQ"
+    }
+  ]
+}

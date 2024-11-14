@@ -1,0 +1,42 @@
+{
+  "description": "Agent type FM dla systemu win dla wskazanego serwera",
+  "folder": "ADM",
+  "parent": "[SOURCE_REPO_TEST]FM-WIN-LB",
+  "parentLoadBalancer": "FM-WIN-LB",
+  "serverNodeType": "FILE_MANAGER",
+  "tags": 
+  [
+    "ADM",
+    "BATCH",
+    "ONLINE"
+  ],
+  "totalWeightCapacity": 100,
+  "configuration": {
+    "AgentHeartbeat": "60000",
+    "NoOfPrcss": 150,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "logLevel": "INFO",
+    "logMaxFiles": 120,
+    "maxLogSize": 4096,
+    "persistence": true,
+    "persistenceRetry": true,
+    "sysoutMaxAgeInDays": 40
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "defaultEndpoint": true,
+      "endpoint": "ALNH-FM-ENDPOINT-1-FTP",
+      "endpointType": "MAINFRAME_FTP"
+    },
+    {
+      "endpoint": "ALNH-FM-ENDPOINT-1-FTPS",
+      "endpointType": "MAINFRAME_FTPS"
+    }
+  ]
+}

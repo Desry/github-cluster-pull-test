@@ -1,0 +1,13 @@
+{
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "TEST_TAG"
+  ],
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}

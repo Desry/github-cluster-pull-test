@@ -1,0 +1,28 @@
+{
+  "serverNodeType": "FILE_MANAGER",
+  "totalWeightCapacity": 150,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 100,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "persistenceRetry": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "TEST",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "D4_SFTP",
+      "endpointType": "SFTP"
+    }
+  ]
+}

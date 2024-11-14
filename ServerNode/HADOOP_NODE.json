@@ -1,0 +1,6 @@
+{
+  "serverNodeType": "HDFS",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  }
+}

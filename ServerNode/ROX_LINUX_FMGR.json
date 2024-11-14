@@ -1,0 +1,16 @@
+{
+  "serverNodeType": "FILE_MANAGER",
+  "totalWeightCapacity": 100,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 100,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  }
+}

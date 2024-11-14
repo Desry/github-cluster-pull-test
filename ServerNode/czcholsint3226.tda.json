@@ -1,0 +1,15 @@
+{
+  "parent": "[SOURCE_REPO_TEST]AnowEngine.Tda.lbrr",
+  "parentLoadBalancer": "AnowEngine.Tda.lbrr",
+  "serverNodeType": "TERADATA",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "TeradataAcoc.GBL.ep",
+      "endpointType": "TERADATA"
+    }
+  ]
+}

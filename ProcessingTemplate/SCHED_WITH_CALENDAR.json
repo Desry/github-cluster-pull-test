@@ -1,0 +1,18 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "task_to_run_via_schedule_with_calendar",
+      "processingTemplate": "task_to_run_via_schedule_with_calendar",
+      "processingType": "TASK",
+      "serverNodeType": "LINUX",
+      "taskType": "SH"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "serverNodeType": "SNOWFLAKE",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "JG_DEMO_ABB_SNOW",
+      "endpointType": "SNOWFLAKE"
+    }
+  ]
+}

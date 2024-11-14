@@ -1,0 +1,161 @@
+{
+  "parent": "[SOURCE_REPO_TEST]MELA_MLAISFTP_LOAD_BALANCER",
+  "parentLoadBalancer": "MELA_MLAISFTP_LOAD_BALANCER",
+  "serverNodeType": "FILE_MANAGER",
+  "tags": 
+  [
+    "SFTP"
+  ],
+  "totalWeightCapacity": 100,
+  "configuration": {
+    "AgentHeartbeat": 35000,
+    "NoOfPrcss": 40,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "actions": 
+  [
+    {
+      "processingActionType": "NOTIFY_CHANNEL",
+      "processingEventCategory": "SERVER_NODE",
+      "processingEventType": "SERVER_NODE_DISCONNECTED",
+      "processingCommand": {
+        "notificationChannel": "[MELA]nodeMonitor",
+        "notificationChannelParameters": {
+          "ci": "TDASPROD4_[MELA]twsuser@mlaisftp04.mela.fi",
+          "dateQueued": "Jun 12, 2024, 12:33:48 PM",
+          "domain": "MELA",
+          "domain_id": "${domain}",
+          "server": "mlaisftp04.mela.fi",
+          "severity": "2",
+          "status": "DISCONNECTED"
+        }
+      }
+    },
+    {
+      "processingActionType": "NOTIFY_CHANNEL",
+      "processingEventCategory": "SERVER_NODE",
+      "processingEventType": "SERVER_NODE_CONNECTED",
+      "processingCommand": {
+        "notificationChannel": "[MELA]nodeMonitor",
+        "notificationChannelParameters": {
+          "ci": "TDASPROD4_[MELA]twsuser@mlaisftp04.mela.fi",
+          "dateQueued": "Jun 12, 2024, 12:34:53 PM",
+          "domain": "MELA",
+          "domain_id": "${domain}",
+          "server": "mlaisftp04.mela.fi",
+          "severity": "0",
+          "status": "CONNECTED"
+        }
+      }
+    }
+  ],
+  "endpoints": 
+  [
+    {
+      "endpoint": "sftp1_mlaas29",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "sftp_mlaas28",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "sftp_kela-prod",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "sftp1_mlaas28",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "sftp1_mlaas33",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "sftp_mlaas33",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "sftp.visma.fi",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "sftp_mlaas29",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "om-prod",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "MLAFS01_ad.mela.fi",
+      "endpointType": "FTP"
+    },
+    {
+      "endpoint": "10.110.208.11",
+      "endpointType": "FTP"
+    },
+    {
+      "endpoint": "BIX",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "arekprod",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "katre-etuus",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "katreprod",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "MLAFS01_ad.mela.fi_sftp_powerbi",
+      "endpointType": "FTP"
+    },
+    {
+      "endpoint": "MLAFS01.ad.mela.fi_aktive",
+      "endpointType": "FTP"
+    },
+    {
+      "endpoint": "sftp_mlaas39",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "sftp_mlaas42",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "mlaas45.ad.mela.fi",
+      "endpointType": "FTP"
+    },
+    {
+      "endpoint": "MLAFS03_ad.mela.fi",
+      "endpointType": "FTP"
+    },
+    {
+      "endpoint": "sftp_opuscapita",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "MLAFS03.ad.mela.fi",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "MLAFS03_ad.mela.fi_sftp_powerbi",
+      "endpointType": "FTP"
+    },
+    {
+      "endpoint": "MLAFS03.ad.mela.fi_sftp_powerbi",
+      "endpointType": "SFTP"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "serverNodeType": "SERVICE_NOW",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "SERVICENOW_DEV_VIKTOR",
+      "endpointType": "SERVICE_NOW"
+    }
+  ]
+}

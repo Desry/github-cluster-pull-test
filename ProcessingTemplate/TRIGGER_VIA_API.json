@@ -1,0 +1,22 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "tags": 
+  [
+    "MV"
+  ],
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "name": "echo_test",
+      "processingTemplate": "echo_test",
+      "processingType": "TASK",
+      "serverNodeType": "LINUX",
+      "taskType": "SH"
+    }
+  ]
+}

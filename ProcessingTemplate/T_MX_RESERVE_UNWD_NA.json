@@ -1,0 +1,18 @@
+{
+  "description": "Unwind reserve trades for North America",
+  "folder": "MX_EOD",
+  "node": "murex_appserver",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "EOD"
+  ],
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "cd ${HOME}/eod_scripts\n./xmlRequestWrapper.sh -s RESERVE_UNWD_NA -n FIXING -l ${LOG_FILE}"
+  }
+}

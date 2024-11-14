@@ -1,0 +1,9 @@
+{
+  "parent": "[SOURCE_REPO_TEST]LINUX_LB_ACTIVE_PASSIVE_2",
+  "parentLoadBalancer": "LINUX_LB_ACTIVE_PASSIVE_2",
+  "serverNodeType": "LINUX",
+  "sortOrder": 0,
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  }
+}

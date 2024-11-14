@@ -1,0 +1,8 @@
+{
+  "parent": "[SOURCE_REPO_TEST]LINUX_LB_ACTIVE_PASSIVE",
+  "parentLoadBalancer": "LINUX_LB_ACTIVE_PASSIVE",
+  "serverNodeType": "LINUX",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  }
+}

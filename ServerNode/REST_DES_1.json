@@ -1,0 +1,15 @@
+{
+  "parent": "[SOURCE_REPO_TEST]REST_LB",
+  "parentLoadBalancer": "REST_LB",
+  "serverNodeType": "REST_WEB_SERVICE",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "REST_TEST",
+      "endpointType": "REST_WEB_SERVICE"
+    }
+  ]
+}

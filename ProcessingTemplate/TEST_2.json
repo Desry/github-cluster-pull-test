@@ -1,0 +1,10 @@
+{
+  "integration": "AN.IPC.INT.TEMPLATE",
+  "integrationType": "TEMPLATE",
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "triggerType": "SELF_SERVICE",
+  "customFieldValues": {
+  }
+}

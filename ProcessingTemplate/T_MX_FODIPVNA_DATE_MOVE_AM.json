@@ -14,6 +14,6 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "cd ${HOME}/eod_scripts\n./xmlRequestWrapper.sh -s FO_EOD -n FODIPVNA -l ${LOG_FILE}"
+    "script": "cd ${HOME}/eod_scripts\n./xmlRequestWrapper.sh -s FO_EOD -n FODIPVNA -l ${LOG_FILE}\n sleep 5"
   }
 }
